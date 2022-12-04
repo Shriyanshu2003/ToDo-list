@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO-DO LIST</title>
-    <!-- fontawesome link -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+    <title>TO-DO LIST</title> 
     <!-- style link -->
     <link rel="stylesheet" href="style.css">
     
@@ -20,13 +17,22 @@
         <div class="sign">+</div>
         <div id="text" onclick="add()">Add a Task</div>
     </div>
+<!--nav bar-->
+<div class="navbar">
+    <div class="navbar-inner">
+       <a href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+  
  <!-- container -->
  <div id="container">
     <div id="container1">
     
      </div>
      <div id="container2">
-        <div class="sign" style="background-color: rgb(175, 174, 174);margin-left: 25%;"><img src="arrow.webp" height="20px" width="22px"></div>
+        <div class="sign" style="background-color: rgb(175, 174, 174);margin-left: 25%;"><img src="Arrow.webp" height="20px" width="22px"></div>
         <div style="display:inline;font-size: large;margin-left: 1%;font-family: sans-serif;cursor: pointer;" onclick="back()">Back</div>
         <div class="sign" style="margin-left:20%">+</div>
         <div style="display:inline;font-size: large;margin-left: 1%;font-family: sans-serif;cursor: pointer;" onclick="add_item()">Add work</div>
@@ -54,8 +60,10 @@
      </div>
      </div>
  </div>
-
-
+ <!--copyright-->
+ <div class="footer">  
+    @Copyright To-do-List 2022- All Right Reserved.   
+    </div>
 
  <!-- new task window -->
  <div id="task_window">
@@ -73,8 +81,6 @@
 
 
 <!-- addition of items to the particular tasks -->
-
-
 
     <script src="script.js"></script>
 </body>
